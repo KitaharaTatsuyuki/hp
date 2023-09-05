@@ -48,7 +48,6 @@
     <link rel="stylesheet"
         href="https://www.gstatic.com/_/atari/_/ss/k=atari.vw.0_N86g2KcSA.L.W.O/d=1/rs=AGEqA5lDIPO5vFm3jX73nDmTH1W2iCMSAg"
         data-id="_cl" nonce="">
-    <script nonce=""></script>
     <title>株式会社大元商事</title>
     <style jsname="ptDGoc" nonce="">
         .ImnMyf {
@@ -160,9 +159,9 @@
             background-color: rgba(255, 255, 255, 0.1199999973);
         }
 
-        .fOU46b .Mz8gvb {
+        /* .fOU46b .Mz8gvb {
             color: rgba(255, 255, 255, 1);
-        }
+        } */
 
         .fOU46b .Mz8gvb.chg4Jd:focus:before {
             border-color: rgba(255, 255, 255, 1);
@@ -1348,7 +1347,6 @@
             }
         }
     </style>
-    
 </head>
 
 <body dir="ltr" itemscope="" itemtype="http://schema.org/WebPage" id="yDmH0d" css="yDmH0d"
@@ -1586,7 +1584,7 @@
                                         </li>
                                     </ul>
                                 </nav>
-                                <div class="VLoccc K5Zlne QDWEj U8eYrb" jsname="rtFGi" aria-hidden="false" style="background-color: rgba(255, 255, 255, 1);">
+                                <div class="VLoccc K5Zlne QDWEj U8eYrb" jsname="rtFGi" aria-hidden="false" style="background-color: rgba(255, 255, 255, 0.8);">
                                     <div class="Pvc6xe">
                                         <div jsname="I8J07e" class="TlfmSc YSH9J">&nbsp;</div>
                                         <nav class="plFg0c" jscontroller="HXO1uc"
@@ -2300,7 +2298,24 @@
     </div>
     <div jscontroller="YV8yqd" jsaction="rcuQ6b:npT2md"></div>
     <div id="docs-aria-speakable" role="region" aria-live="assertive" aria-atomic="true" aria-hidden="false"
-        style="position: absolute; left: 0px; top: -1px; z-index: -2; opacity: 0;"></div>
+    style="position: absolute; left: 0px; top: -1px; z-index: -2; opacity: 0;"></div>
+    <script>
+        const sidebarButton = document.getElementById('s9iPrd');
+        const sidebarNav = document.getElementById('yuynLe');
+
+        // 添加点击事件处理程序
+        sidebarButton.addEventListener('click', () => {
+            // 切换元素的 jsnVQ class
+            sidebarNav.classList.toggle('jsnVQ');
+
+            // 切换元素的 display 样式
+            if (sidebarNav.style.display === 'none') {
+                sidebarNav.style.display = 'block';
+            } else {
+                sidebarNav.style.display = 'none';
+            }
+        });
+    </script>
 </body>
 
 </html>

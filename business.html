@@ -159,9 +159,9 @@
             background-color: rgba(255, 255, 255, 0.1199999973);
         }
 
-        .fOU46b .Mz8gvb {
+        /* .fOU46b .Mz8gvb {
             color: rgba(255, 255, 255, 1);
-        }
+        } */
 
         .fOU46b .Mz8gvb.chg4Jd:focus:before {
             border-color: rgba(255, 255, 255, 1);
@@ -1584,7 +1584,7 @@
                                         </li>
                                     </ul>
                                 </nav>
-                                <div class="VLoccc K5Zlne QDWEj U8eYrb" jsname="rtFGi" aria-hidden="false" style="background-color: rgba(255, 255, 255, 1);">
+                                <div class="VLoccc K5Zlne QDWEj U8eYrb" jsname="rtFGi" aria-hidden="false" style="background-color: rgba(255, 255, 255, 0.8);">
                                     <div class="Pvc6xe">
                                         <div jsname="I8J07e" class="TlfmSc YSH9J">&nbsp;</div>
                                         <nav class="plFg0c" jscontroller="HXO1uc"
@@ -2086,6 +2086,23 @@
         </div>
     </div>
     <div jscontroller="YV8yqd" jsaction="rcuQ6b:npT2md"></div>
+    <script>
+        const sidebarButton = document.getElementById('s9iPrd');
+        const sidebarNav = document.getElementById('yuynLe');
+
+        // 添加点击事件处理程序
+        sidebarButton.addEventListener('click', () => {
+            // 切换元素的 jsnVQ class
+            sidebarNav.classList.toggle('jsnVQ');
+
+            // 切换元素的 display 样式
+            if (sidebarNav.style.display === 'none') {
+                sidebarNav.style.display = 'block';
+            } else {
+                sidebarNav.style.display = 'none';
+            }
+        });
+    </script>
 </body>
 
 </html>
