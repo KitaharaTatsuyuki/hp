@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>お問合わせ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">ホーム</a></li>
+                <li><a href="company.html">企業情報</a></li>
+                <li><a href="business.html">事業内容</a></li>
+                <li><a href="inquiry.html">お問合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>お問合わせ</h1>
+        <section>
+            <h2>株式会社大元商事</h2>
+            <p>Email： <a href="mailto:oomotozyl@gmail.com">oomotozyl@gmail.com</a></p>
+            <p>TEL：  050-6874-5053（代表）</p>
+            <p>住所： 〒359-1122　埼玉県所沢市寿町26番6イニシア所沢　1108号</p>
+        </section>
+        <section>
+            <h2>お問い合わせフォーム</h2>
+            <form action="submit_inquiry.php" method="post">
+                <label for="name">名前:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">メールアドレス:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">メッセージ:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">送信</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 株式会社大元商事. All rights reserved.</p>
+    </footer>
+</body>
+</html>
